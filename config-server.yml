@@ -8,7 +8,7 @@ server:
   port: 8201
 
 # spring的配置
-Spring:
+spring:
   profiles: dev
   application:
     name: springcloud-provider-dept  # 这个名字可以自己取
@@ -28,7 +28,7 @@ eureka:
 server:
   port: 8201
 # spring的配置
-Spring:
+spring:
   profiles: test
   application:
     name: springcloud-provider-dept  # 这个名字可以自己取
