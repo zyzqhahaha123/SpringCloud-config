@@ -11,7 +11,7 @@ spring:
   profiles: dev
   application:
     name: springcloud-provider-dept  # 这个名字可以自己取
- # 配置eureka的配置, 服务注册到哪里
+# 配置eureka的配置, 服务注册到哪里
 eureka:
   client:
     service-url:
